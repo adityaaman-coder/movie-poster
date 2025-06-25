@@ -56,7 +56,7 @@ function App() {
         <span  style={{flexGrow:"0"}}/>
         <input placeholder='Search everything'  style={{flexGrow:"1"}}
         value={query} onChange={(event)=>setQuery(event.target.value)}/>
-        <button style={{flexGrow:"3"}} onClick={()=>searchMovies()} ><LuSend /> </button>
+        <button style={{flexGrow:"3"}} onClick={()=>searchMovies()} ><span /> </button>
         <span id='notification'  style={{flexGrow:"5"}}/>
       </div>
     </header>
