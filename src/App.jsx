@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './Style.css';
 import axios from 'axios';
-import { IoSearch } from "react-icons/io5";
+import { IoMdSearch } from "react-icons/io";
 import { IoMdNotificationsOutline,  IoMdTrendingUp } from "react-icons/io";
 import { BsBrowserEdge } from "react-icons/bs";
 import { FaRegUser } from "react-icons/fa";
@@ -53,7 +53,7 @@ function App() {
       
       <h1>Movies.<span>B</span></h1>
       <div className='search-input'>
-        <IoSearch  style={{flexGrow:"0"}}/>
+        <IoMdSearch  style={{flexGrow:"0"}}/>
         <input placeholder='Search everything'  style={{flexGrow:"1"}}
         value={query} onChange={(event)=>setQuery(event.target.value)}/>
         <button style={{flexGrow:"3"}} onClick={()=>searchMovies()} ><LuSend /> </button>
