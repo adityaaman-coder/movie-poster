@@ -53,22 +53,22 @@ function App() {
       
       <h1>Movies.<span>B</span></h1>
       <div className='search-input'>
-        <IoSearch  style={{flexGrow:"0"}}/>
+        <span  style={{flexGrow:"0"}}/>
         <input placeholder='Search everything'  style={{flexGrow:"1"}}
         value={query} onChange={(event)=>setQuery(event.target.value)}/>
         <button style={{flexGrow:"3"}} onClick={()=>searchMovies()} ><LuSend /> </button>
-        <IoMdNotificationsOutline id='notification'  style={{flexGrow:"5"}}/>
+        <span id='notification'  style={{flexGrow:"5"}}/>
       </div>
     </header>
 
     <div className="container">
       <div className="news_feed" >
           <h2>News Feed</h2>
-        <div className="menu" style={{marginTop:"0px"}}><span><BsBrowserEdge /></span>Browse</div>
-        <div className="menu"><span><IoMdTrendingUp /></span>Trending</div>
-        <div className="menu"><span><FaRegUser /></span>Following</div>
-        <div className="menu"><span><MdOndemandVideo /></span>Your Videos</div>
-        <div className="menu"><span><RiFileList2Line /></span>Playlist</div>
+        <div className="menu" style={{marginTop:"0px"}}><span><span /></span>Browse</div>
+        <div className="menu"><span><span /></span>Trending</div>
+        <div className="menu"><span><span /></span>Following</div>
+        <div className="menu"><span><span /></span>Your Videos</div>
+        <div className="menu"><span><span /></span>Playlist</div>
       </div>
       
       <div className="main_movie" style={{textAlign:"center"}} >
@@ -80,7 +80,7 @@ function App() {
         }
 
         <div className="infomain_movie">
-          <h3 ><span style={{fontWeight:"700"}}>{movieinfo.Title}</span><blockquote/><BiLogoImdb style={{ zoom:"120%"}}/>{movieinfo.imdbRating}<blockquote/>{movieinfo.Language}</h3>
+          <h3 ><span style={{fontWeight:"700"}}>{movieinfo.Title}</span><blockquote/><span style={{ zoom:"120%"}}/>{movieinfo.imdbRating}<blockquote/>{movieinfo.Language}</h3>
         </div>
 
       </div>
