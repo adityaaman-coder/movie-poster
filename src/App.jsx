@@ -2,14 +2,14 @@
 import React, { useState } from 'react';
 import './Style.css';
 import axios from 'axios';
-import { IoSearch } from "react-icons/io5";
-import { IoMdNotificationsOutline,  IoMdTrendingUp } from "react-icons/io";
-import { BsBrowserEdge } from "react-icons/bs";
-import { FaRegUser } from "react-icons/fa";
-import { MdOndemandVideo } from "react-icons/md";
-import { RiFileList2Line } from "react-icons/ri";
-import { LuSend } from "react-icons/lu";
-import { BiLogoImdb } from "react-icons/bi";
+// import { IoSearch } from "react-icons/io5";
+// import { IoMdNotificationsOutline,  IoMdTrendingUp } from "react-icons/io";
+// import { BsBrowserEdge } from "react-icons/bs";
+// import { FaRegUser } from "react-icons/fa";
+// import { MdOndemandVideo } from "react-icons/md";
+// import { RiFileList2Line } from "react-icons/ri";
+// import { LuSend } from "react-icons/lu";
+// import { BiLogoImdb } from "react-icons/bi";
 
 
  // Replace with your actual API key
